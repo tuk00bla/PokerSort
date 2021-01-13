@@ -57,13 +57,13 @@ namespace Task1.Combinations
 
         public static HighCard MakeHighCard(IList<Card> combCards, Dictionary<Rank, int> ranks)
         {
-            List<Rank> kickers = new List<Rank>();
+            List<Rank> potentialKickers = new List<Rank>();
             foreach (var item in ranks)
             {
-                kickers.Add(item.Key);
+                potentialKickers.Add(item.Key);
             }
             
-            return new HighCard(kickers);
+            return new HighCard(potentialKickers);
         }
     }
 }
