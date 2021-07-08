@@ -16,6 +16,7 @@ encode a card
 • <card> is a 2 character string with the first character representing the rank (one
 of A, K, Q, J, T, 9, 8, 7, 6, 5, 4, 3, 2) and the second character representing the suit (one
 of h, d, c, s). Jokers are not used.
+ 
 Examples
 Example input:
 texas-holdem 4cKs4h8s7s Ad4s Ac4d As9s KhKd 5d6d
