@@ -3,6 +3,7 @@
  
 Input of Test Cases
 The input is to be read from the standard input, with one test case per line:
+
 <game-type> [<5 board cards>] <hand 1> <hand 2> <...> <hand N>
 ...where:
 • game-type specifies the game type for this test case, one of:
@@ -18,7 +19,9 @@ of A, K, Q, J, T, 9, 8, 7, 6, 5, 4, 3, 2) and the second character representing 
 of h, d, c, s). Jokers are not used.
  
 Examples
+ 
 Example input:
+ 
 texas-holdem 4cKs4h8s7s Ad4s Ac4d As9s KhKd 5d6d
 texas-holdem 2h3h4h5d8d KdKs 9hJh
 omaha-holdem 3d3s4d6hJc Js2dKd8c KsAsTcTs Jh2h3c9c Qc8dAd6c 7dQsAc5d
